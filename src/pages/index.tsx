@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import HomepageFeatures from '@site/src/components/HomepageFeatures'
+import Wave from 'react-wavify'
 
 import styles from './index.module.css'
 
@@ -23,6 +24,17 @@ function HomepageHeader() {
           </Link>
         </div>
       </div>
+   <Wave fill='#f69c4d'
+        paused={false}
+        style={{width: '100%', margin: 0}}
+        options={{
+          height: 50,
+          amplitude: 40,
+          speed: 0.15,
+          points: 5
+        }}
+  />
+
     </header>
   )
 }

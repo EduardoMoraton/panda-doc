@@ -2,46 +2,34 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Meet Panda 🔥
+![image](./assets/logo_panda.png)
 
-## Getting Started
+Welcome to **Panda**, an open-source initiative committed to transforming the way you understand and manage your household electricity consumption. Panda provides you with a user-friendly platform to effortlessly automate electricity consumption reports, putting the power of data in your hands – and it's completely free.
 
-Get started by **creating a new site**.
+## What is Panda?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Panda is more than just a tool; it's a community-driven project designed to empower individuals in gaining insights into their electricity usage. By leveraging a vast database of average power consumption for various household activities, Panda calculates and presents a detailed summary of your overall electricity consumption. The goal is simple: to help you identify where your energy is going and make informed decisions to optimize usage.
 
 ### What you'll need
 
 - [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [Bun.js](https://bun.sh/)
 
-## Generate a new site
+### Getting started
 
-Generate a new Docusaurus site using the **classic template**.
+First, run the development server:
 
-The classic template will automatically be added to your project after you run the command:
+> npm run dev
+> #### or
+> yarn dev
+> #### or
+> pnpm dev
+> #### or
+> bun dev
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
